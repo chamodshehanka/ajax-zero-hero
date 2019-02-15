@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AJAX - 10</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            main{
+                margin-top: 10px;
+            }
+
+            table tbody tr{
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <button type="button" class="btn btn-primary" type="button" id="btnLoad">Load All Customers</button>
+            <hr>
+            <table id="tblCustomers" class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Customer Address</th>
+                        <th>Customer Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </main>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/ajax-script.js"></script>
+    </body>
+</html>

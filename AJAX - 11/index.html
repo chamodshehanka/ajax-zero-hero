@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sending JSON</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h1>Sending JSON</h1>
+    <form id="frmCustomer">
+        <div class="form-group">
+            <label for="txtCustomerID">Customer ID</label>
+            <input name="id" class="form-control" type="text" id="txtCustomerID" placeholder="Enter customer ID here">
+        </div>
+        <div class="form-group">
+            <label for="txtCustomerName">Customer Name</label>
+            <input name="name" class="form-control" type="text" id="txtCustomerName" placeholder="Enter customer name here">
+        </div>
+        <div class="form-group">
+            <label for="txtCustomerAddress">Customer Address</label>
+            <input name="address" class="form-control" type="text" id="txtCustomerAddress" placeholder="Enter customer address here">
+        </div>
+        <div class="form-group">
+            <label for="txtCustomerSalary">Customer Salary</label>
+            <input name="salary" class="form-control" type="text" id="txtCustomerSalary" placeholder="Enter customer salary here">
+        </div>
+        <button class="btn btn-primary" id="btnSend" type="button">Save Customer</button>
+    </form>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/ajax-script.js"></script>
+</body>
+</html>

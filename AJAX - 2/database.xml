@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ijse>
+    <name>Institute of Software Engineering</name>
+    <branches>
+        <branch tel="0381234567">Panadura</branch>
+        <branch tel="0144678914">Galle</branch>
+    </branches>
+</ijse>

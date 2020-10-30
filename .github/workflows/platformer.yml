@@ -1,4 +1,4 @@
-name: Production Build
+name: Platformer Production Build
 on:
   push:
     branches:

@@ -8,7 +8,7 @@ jobs:
     runs-on:
       - ubuntu-latest
     env:
-      SERVICE_NAME: ghrc.io/test
+      SERVICE_NAME: ghcr.io/test
     steps:
       - uses: actions/checkout@v2
       - name: Set Version
